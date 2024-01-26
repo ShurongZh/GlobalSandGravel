@@ -1,4 +1,4 @@
-# 0 引进包
+# 0 import
 from dynamic_stock_model import DynamicStockModel   # import model
 import numpy as np  # calculation package
 import matplotlib.pyplot as plt    # import mapping package
