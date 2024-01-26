@@ -15,7 +15,7 @@ outflow_data = []
 DynamicStock_data = []
 Stock_data = []
 
-Years = []   # year from 1900 to 2019
+Years = []   # 121 for bitumen from 1900 to 2019; 91 for cement from 1930 to 2019.
 for m in range(1,121):  # read year
     Years.append(int(BitumenInflow_DataSheet.cell_value(m,0)))
 
